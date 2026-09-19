@@ -131,4 +131,9 @@ dist
 # custom
 blocklist.json
 content-hash.json
-config.bat
+
+# local env + editor state
+.env
+.env.local
+.env.*.local
+.vscode/
